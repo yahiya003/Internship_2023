@@ -31,3 +31,38 @@ Files and Folders:
 Ubuntu uses the Files application (formerly known as Nautilus) as the default file manager. It provides a simple and intuitive interface for managing files and folders.
 Terminal:
 The terminal is a powerful tool for executing commands and performing system operations. To open the terminal, use the shortcut Ctrl + Alt + T or search for "Terminal" in the application launcher.
+To lauch the openlane command prompt type in the terminal where the OpenLane folder is
+cd OpenLane
+make mount
+     ####commands
+
+To create the design type the following command in the terminal
+./flow.tcl -design <design_name> -init_design_config -add_to_designs -config_file config.tcl
+
+To run openlane interactively
+You may run the flow interactively by using the -interactive option:
+./flow.tcl -interactive
+
+A tcl shell will be opened where the openlane package is automatically sourced:
+
+Then type the follwoing
+
+% package require openlane
+
+Then, you should be able to run the following main commands:
+
+Any tcl command.
+
+prep -design <design> -tag <tag> -config <config> -init_design_config -overwrite
+
+similar to the command line arguments, design is required and the rest is optional
+
+run_synthesis
+run_floorplan
+run_placement
+run_cts
+run_routing
+ 
+The above commands can also be written in a file and passed to flow.tcl:
+./flow.tcl -interactive -file <file>
+
