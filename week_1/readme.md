@@ -1,4 +1,5 @@
-During my internship week-1, I had the opportunity to gain valuable experience and exposure to industry-standard tools and platforms used in the field of electronic design. Two notable platforms I worked with were EdaPlayground and CircuitVerse.
+####During my internship week-1,
+I had the opportunity to gain valuable experience and exposure to industry-standard tools and platforms used in the field of electronic design. Two notable platforms I worked with were EdaPlayground and CircuitVerse.
 
 EdaPlayground provided an immersive environment for me to explore and experiment with various electronic design automation (EDA) tools. This web-based platform allowed me to simulate and test digital circuits using popular software such as Verilog. I was able to design and simulate complex circuits, analyze their behavior, and gain a deeper understanding of circuit performance. EdaPlayground's user-friendly interface and extensive library of components made it a valuable resource for hands-on learning and experimentation.
 
